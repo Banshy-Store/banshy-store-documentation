@@ -1,6 +1,6 @@
 ## Understanding FiveM asset escrow system
 
-The FiveM asset escrow system secures assets by encrypting critical files, ensuring that exclusive Quasar Store assets are protected against unauthorized use or modification. Below is a detailed guide to common errors and solutions, with titled sections for clarity.
+The FiveM asset escrow system secures assets by encrypting critical files, ensuring that exclusive Banshy Store assets are protected against unauthorized use or modification. Below is a detailed guide to common errors and solutions, with titled sections for clarity.
 
 ### Failed to Verify Protected Resource
 This error usually means the files were corrupted during transfer.
