@@ -36,6 +36,7 @@
      - [Quickstart](../doc_bs-burgershot/getting-started/quickstart.md)
    - BS-CarDealer
      - [Overview](../doc_bs-cardealer/README.md)
+      - [Installation](../doc_bs-cardealer/installation.md)
      - [Quickstart](../doc_bs-cardealer/quickstart.md)
      - [Configuration](../doc_bs-cardealer/configuration.md)
    - BS-BikeShop

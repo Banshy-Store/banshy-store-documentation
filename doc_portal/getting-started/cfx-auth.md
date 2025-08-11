@@ -1,32 +1,32 @@
 # CFX Auth
 
-CFX Auth est le système d’authentification/entitlements de Cfx.re (FiveM). Il relie vos achats et les permissions serveur à votre compte via Keymaster. Les ressources protégées (escrow) nécessitent une licence serveur valide appartenant au compte propriétaire.
+CFX Auth is the Cfx.re (FiveM) authentication/entitlements system. It links your purchases and server permissions to your account via Keymaster. Protected resources (escrow) require a valid server license belonging to the owner account.
 
-## Comment ça marche
-- Un achat crée un entitlement sur votre compte Cfx.re.
-- Votre serveur s’identifie avec une clé Keymaster `sv_licenseKey`.
-- Au démarrage d’une ressource protégée, la plateforme vérifie que la clé serveur correspond aux entitlements du propriétaire.
+## How it works
+- A purchase creates an entitlement on your Cfx.re account.
+- Your server identifies with a Keymaster key `sv_licenseKey`.
+- When a protected resource starts, the platform checks that the server key matches the owner's entitlements.
 
-## Prérequis
-- Une clé serveur Keymaster valide sur le compte acheteur
-- Le `server.cfg` configuré avec cette clé
-- Une connectivité internet côté serveur
+## Prerequisites
+- A valid Keymaster server key on the buyer's account
+- `server.cfg` configured with this key
+- Internet connectivity on the server side
 
-## Mise en place rapide
-1. Créez (ou récupérez) votre clé serveur dans Keymaster depuis le compte acheteur.
-2. Dans `server.cfg`, ajoutez:
+## Quick setup
+1. Create (or retrieve) your server key in Keymaster from the buyer's account.
+2. In `server.cfg`, add:
 
 ```cfg
 sv_licenseKey YOUR_KEYMASTER_KEY
 ```
 
-3. Redémarrez complètement le serveur (pas uniquement la ressource).
+3. Fully restart the server (not just the resource).
 
-## Dépannage: Missing Required Entitlement
-Si vous voyez « You lack the required entitlement to use <resource> »:
-- Vérifiez que la clé serveur appartient bien au compte qui a acheté la ressource.
-- Mettez à jour `sv_licenseKey` si la clé a changé, puis redémarrez le serveur.
-- Voir aussi: [Understanding FiveM asset escrow system](escrow.md)
+## Troubleshooting: Missing Required Entitlement
+If you see "You lack the required entitlement to use <resource>":
+- Verify that the server key belongs to the account that purchased the resource.
+- Update `sv_licenseKey` if the key changed, then restart the server.
+- See also: [Understanding FiveM asset escrow system](escrow.md)
 
-## Médias
-- Captures: [Placeholder – Keymaster, ajout de la clé]
+## Media
+- Screenshots: [Placeholder – Keymaster, adding the key]

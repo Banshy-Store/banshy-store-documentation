@@ -1,12 +1,12 @@
 ## Installation
 
-Ce guide couvre l’installation complète de `bs-bikeshop` pour QS Inventory, OX Inventory ou ESX natif, ainsi que l’activation optionnelle de la boutique intégrée.
+This guide covers full installation of `bs-bikeshop` for QS Inventory, OX Inventory, or native ESX, as well as optionally enabling the built-in shop.
 
-### 1) Prérequis
-- Framework: ESX, QB ou QBX (standalone possible, mais l’argent/back‑office nécessite un framework)
-- Dépendances: `ox_lib`, `ox_target`
+### 1) Prerequisites
+- Framework: ESX, QB or QBX (standalone possible, but money/back‑office requires a framework)
+- Dependencies: `ox_lib`, `ox_target`
 
-Dans `server.cfg` (ordre d’ensure):
+In `server.cfg` (ensure order):
 
 ```cfg
 ensure ox_lib
@@ -14,55 +14,55 @@ ensure ox_target
 ensure bs-bikeshop
 ```
 
-### 2) Déposer la ressource
-Placez le dossier `bs-bikeshop` dans votre répertoire de ressources, puis ajoutez les lignes ci‑dessus dans `server.cfg`.
+### 2) Drop the resource
+Place the `bs-bikeshop` folder into your resources directory, then add the lines above to `server.cfg`.
 
-### 3) Intégrer les items selon votre inventaire
+### 3) Integrate the items for your inventory
 
-Sélection d’inventaire dans `shared/config.lua`:
+Inventory selection in `shared/config.lua`:
 
 ```lua
--- 'auto' tentera QS, puis OX, sinon ESX
-Config.Inventory = 'auto' -- valeurs: 'auto' | 'qs-inventory' | 'ox_inventory' | 'esx'
+-- 'auto' will try QS, then OX, else ESX
+Config.Inventory = 'auto' -- values: 'auto' | 'qs-inventory' | 'ox_inventory' | 'esx'
 ```
 
 #### QS Inventory
-1. Ouvrez `qs-inventory/shared/items.lua`.
-2. Copiez le snippet depuis `install/qs_inventory_items.lua`.
-3. Copiez les images depuis `install/items/` vers `qs-inventory/html/images/`.
-4. Redémarrez `qs-inventory` puis `bs-bikeshop`.
+1. Open `qs-inventory/shared/items.lua`.
+2. Copy the snippet from `install/qs_inventory_items.lua`.
+3. Copy the images from `install/items/` to `qs-inventory/html/images/`.
+4. Restart `qs-inventory` then `bs-bikeshop`.
 
-Notes QS:
-- Les items sont marqués `unique = true` et `useable = true`.
-- Les noms utilisés par le script: `bmx`, `cruiser`, `fixter`, `scorcher`, `tribike`, `tribike2`, `tribike3`.
+QS notes:
+- Items are marked `unique = true` and `useable = true`.
+- Script item names: `bmx`, `cruiser`, `fixter`, `scorcher`, `tribike`, `tribike2`, `tribike3`.
 
 #### OX Inventory
-Option A: fusionner dans `ox_inventory/data/items.lua` les entrées du snippet `install/ox_inventory_items.lua`.
+Option A: merge into `ox_inventory/data/items.lua` the entries from the snippet `install/ox_inventory_items.lua`.
 
-Option B: si vous gérez vos items via un fichier séparé, adaptez la structure (label, weight, stack, consume) à votre schéma existant.
+Option B: if you manage your items via a separate file, adapt the structure (label, weight, stack, consume) to your existing schema.
 
-Redémarrez `ox_inventory` puis `bs-bikeshop`.
+Restart `ox_inventory` then `bs-bikeshop`.
 
-#### ESX natif (items en SQL)
-1. Choisissez votre schéma: poids ou limite.
-   - Schéma poids: importez `install/items_bikes_esx_weight.sql`
-   - Schéma limite: importez `install/items_bikes_esx_limit.sql`
-2. Redémarrez l’inventaire / le serveur.
+#### Native ESX (items in SQL)
+1. Choose your schema: weight or limit.
+   - Weight schema: import `install/items_bikes_esx_weight.sql`
+   - Limit schema: import `install/items_bikes_esx_limit.sql`
+2. Restart the inventory/server.
 
-### 4) Vérifier en jeu
-1. Donnez‑vous un item (ex: via commande admin ou panel) `bmx`.
-2. Utilisez l’item: un vélo spawn à côté de vous, plaque aléatoire.
-3. Ciblez le vélo avec `ox_target` → « Ranger le vélo » pour récupérer l’item.
+### 4) Verify in-game
+1. Give yourself an item (e.g., via admin command or panel) `bmx`.
+2. Use the item: a bike spawns next to you with a random plate.
+3. Target the bike with `ox_target` → "Pack the bike" to get the item back.
 
-### 5) Activer la boutique intégrée (optionnel)
-La boutique intégrée utilise `ox_target` pour afficher un menu `ox_lib` contextuel.
+### 5) Enable the built-in shop (optional)
+The built-in shop uses `ox_target` to display a contextual `ox_lib` menu.
 
-Dans `shared/config.lua`:
+In `shared/config.lua`:
 
 ```lua
 Config.EnableBuiltInShop = true
 
--- Produits (prix et noms d’items)
+-- Products (prices and item names)
 Config.Products = {
   { name = 'bmx',      label = 'BMX',        price = 1000 },
   { name = 'cruiser',  label = 'Cruiser',    price = 1200 },
@@ -73,23 +73,23 @@ Config.Products = {
   { name = 'tribike3', label = 'Tri-Cycles', price = 2000 },
 }
 
--- Emplacements (zones ox_target)
+-- Locations (ox_target zones)
 Config.Locations = {
   { coords = vec4(-1223.0, -1435.05, 4.37, 130.0), label = 'Bike Shop' },
 }
 ```
 
-Compte de paiement (serveur):
+Payment account (server):
 
 ```lua
--- ESX: 'money' ou 'bank' | QB/QBX: 'cash' ou 'bank'
+-- ESX: 'money' or 'bank' | QB/QBX: 'cash' or 'bank'
 Config.PaymentAccount = 'money'
 ```
 
-### 6) Dépannage rapide
-- Aucun bouton « Ranger le vélo » ? Vérifiez `ox_target` et que le modèle est supporté (liste dans `client/client.lua`).
-- Item non rendu lors du rangement ? L’inventaire doit pouvoir porter l’item (poids/slots). Le script vérifie la capacité avant suppression du véhicule.
-- Achat boutique impossible ? Vérifiez fonds (`Config.PaymentAccount`) et le framework détecté côté serveur.
-- Doublons de vélos ? L’option anti‑abus limite 1 vélo par joueur (voir Personnalisation pour ajuster).
+### 6) Quick troubleshooting
+- No "Pack the bike" option? Check `ox_target` and that the model is supported (list in `client/client.lua`).
+- Item not returned when packing? The inventory must be able to hold the item (weight/slots). The script checks capacity before deleting the vehicle.
+- Shop purchase not working? Check funds (`Config.PaymentAccount`) and the framework detected server-side.
+- Bike duplicates? The anti‑abuse option limits 1 bike per player (see Customisation to adjust).
 
 

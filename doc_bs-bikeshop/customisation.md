@@ -1,31 +1,31 @@
-## Personnalisation
+## Customisation
 
-Tous les paramètres se trouvent dans `shared/config.lua`. Voici les réglages clés pour adapter la ressource à votre économie et vos préférences de gameplay.
+All settings are in `shared/config.lua`. Here are the key options to adapt the resource to your economy and gameplay preferences.
 
-### Langue
+### Language
 ```lua
--- 'en' ou 'fr' (d’autres langues sont prêtes dans locales)
+-- 'en' or 'fr' (other languages are prepared in locales)
 Config.Locale = 'en'
 ```
 
-`shared/locales.lua` contient EN/FR + 12 autres langues. La fonction `T(key, ...)` sélectionne automatiquement la langue configurée.
+`shared/locales.lua` contains EN/FR + 12 other languages. The function `T(key, ...)` automatically selects the configured language.
 
-### Inventaire
+### Inventory
 ```lua
 -- 'auto' = QS > OX > ESX
 Config.Inventory = 'auto' -- 'auto' | 'qs-inventory' | 'ox_inventory' | 'esx'
 ```
 
-### Boutiqued intégrée
+### Built-in shop
 ```lua
--- Active la boutique interne (zones ox_target + menu ox_lib)
+-- Enable the internal shop (ox_target zones + ox_lib menu)
 Config.EnableBuiltInShop = false
 
--- Compte de paiement
--- ESX: 'money' ou 'bank' | QB/QBX: 'cash' ou 'bank'
+-- Payment account
+-- ESX: 'money' or 'bank' | QB/QBX: 'cash' or 'bank'
 Config.PaymentAccount = 'money'
 
--- Produits et prix
+-- Products and prices
 Config.Products = {
   { name = 'bmx',      label = 'BMX',        price = 1000 },
   { name = 'cruiser',  label = 'Cruiser',    price = 1200 },
@@ -36,53 +36,53 @@ Config.Products = {
   { name = 'tribike3', label = 'Tri-Cycles', price = 2000 },
 }
 
--- Emplacements de boutique (zones)
+-- Shop locations (zones)
 Config.Locations = {
   { coords = vec4(-1223.0, -1435.05, 4.37, 130.0), label = 'Bike Shop' },
 }
 ```
 
-### Spawn du vélo
+### Bike spawn
 ```lua
 Config.Spawn = {
-  offset = vector3(2.0, 0.0, 0.3), -- position relative au joueur
-  seatInto = true,                  -- asseoir le joueur automatiquement
-  platePrefix = 'BIKE',             -- préfixe de plaque
-  cooldownSeconds = 3,              -- délai anti‑spam
-  safeSpawnCheck = false,           -- si vous avez un checker de zone libre
-  safeRadius = 1.5                  -- rayon du checker
+  offset = vector3(2.0, 0.0, 0.3), -- position relative to the player
+  seatInto = true,                  -- seat the player automatically
+  platePrefix = 'BIKE',             -- plate prefix
+  cooldownSeconds = 3,              -- anti‑spam delay
+  safeSpawnCheck = false,           -- if you have a free‑area checker
+  safeRadius = 1.5                  -- radius for the checker
 }
 ```
 
-### Rangement (ox_target)
+### Packing (ox_target)
 ```lua
 Config.Pack = {
   enable = true,
-  distance = 2.0,       -- distance d’interaction
-  ownerOnly = true,      -- seul le propriétaire peut ranger
-  maxPackRange = 5.0,    -- distance max joueur ↔ vélo côté serveur
+  distance = 2.0,       -- interaction distance
+  ownerOnly = true,     -- only the owner can pack
+  maxPackRange = 5.0,   -- max player ↔ bike distance, server‑side
 }
 ```
 
-### Restrictions (anti‑abus)
+### Restrictions (anti‑abuse)
 ```lua
 Config.Restrictions = {
-  singleBikePerPlayer = true, -- limite à 1 item vélo par joueur
+  singleBikePerPlayer = true, -- limit to 1 bike item per player
   bikeItems = { 'bmx', 'cruiser', 'fixter', 'scorcher', 'tribike', 'tribike2', 'tribike3' }
 }
 ```
 
-Si vous utilisez QS Shops, le serveur applique un contrôle post‑achat et retire l’item en trop en notifiant le joueur.
+If you use QS Shops, the server applies a post‑purchase check and removes extra items, notifying the player.
 
-### Modèles supportés et ciblage ox_target
-Les modèles supportés côté client : `bmx`, `cruiser`, `fixter`, `scorcher`, `tribike`, `tribike2`, `tribike3`.
+### Supported models and ox_target
+Supported client‑side models: `bmx`, `cruiser`, `fixter`, `scorcher`, `tribike`, `tribike2`, `tribike3`.
 
-`ox_target` ajoute automatiquement l’option « Ranger le vélo » sur ces modèles, avec contrôle d’appartenance si `ownerOnly = true`.
+`ox_target` automatically adds the "Pack the bike" option on these models, with ownership control if `ownerOnly = true`.
 
-### Ajout d’un nouveau vélo (exemple)
-1) Ajoutez l’item dans votre inventaire (QS/OX/ESX) avec image si QS.
-2) Ajoutez son nom dans `Config.Restrictions.bikeItems`.
-3) Ajoutez son entrée dans `Config.Products` si vous voulez le vendre via la boutique intégrée.
-4) Si le modèle a un autre nom, assurez‑vous de l’utiliser comme `model` de spawn côté client (événement `bs-bikeshop:useBikeItem`).
+### Add a new bike (example)
+1) Add the item in your inventory (QS/OX/ESX) with image if QS.
+2) Add its name to `Config.Restrictions.bikeItems`.
+3) Add an entry to `Config.Products` if you want to sell it via the built‑in shop.
+4) If the model has a different name, make sure to use it as the spawn `model` on the client side (event `bs-bikeshop:useBikeItem`).
 
 

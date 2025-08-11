@@ -1,13 +1,13 @@
 # Banshy Store — Portal
 
-Bienvenue dans le portail de documentation Banshy Store. Vous trouverez ici les pages transverses (Getting Started, guides plateforme) valables pour tous nos scripts.
+Welcome to the Banshy Store documentation portal. Here you'll find cross-cutting pages (Getting Started, platform guides) that apply to all our scripts.
 
-## Docs par script
+## Docs by script
 - BS-BurgerShot: `doc_bs-burgershot/`
 - bs-cardealer: `doc_bs-cardealer/`
 - bs-bikeshop: `doc_bs-bikeshop/`
 
-Utilisez le sommaire pour naviguer: d’abord les docs génériques, puis nos produits.
+Use the summary to navigate: start with the generic docs, then explore our products.
 
-## Médias
-- Captures: [Placeholder – aperçu du portail]
+## Media
+- Screenshots: [Placeholder – portal overview]

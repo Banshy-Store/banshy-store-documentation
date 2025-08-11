@@ -1,14 +1,14 @@
 # Before you start
 
-Préparez votre environnement pour travailler avec les scripts Banshy Store.
+Prepare your environment to work with Banshy Store scripts.
 
-## Outils requis
-- Git, GitHub (accès au repo)
-- Visual Studio Code + extensions Lua/JSON/Markdown
-- PowerShell 7 (Windows) ou Shell récent (Linux)
+## Required tools
+- Git, GitHub (repository access)
+- Visual Studio Code + Lua/JSON/Markdown extensions
+- PowerShell 7 (Windows) or a recent shell (Linux)
 - MariaDB + [HeidiSQL](../development-guides/how-to-install-heidisql.md)
 
-## Structure conseillée
+## Recommended structure
 ```
 /server
   /resources
@@ -18,12 +18,12 @@ Préparez votre environnement pour travailler avec les scripts Banshy Store.
   server.cfg
 ```
 
-## Check‑list rapide
-- Clé serveur Keymaster prête (voir Getting Started > CFX Auth)
-- Artifacts et gamebuild à jour (voir Dev Guides > How to update my server)
-- Framework et inventory alignés avec nos prérequis
+## Quick checklist
+- Keymaster server key ready (see Getting Started > CFX Auth)
+- Artifacts and gamebuild up to date (see Dev Guides > How to update my server)
+- Framework and inventory aligned with our prerequisites
 
-## Médias
-- Captures: [Placeholder – arborescence de base]
+## Media
+- Screenshots: [Placeholder – base tree]
 
 

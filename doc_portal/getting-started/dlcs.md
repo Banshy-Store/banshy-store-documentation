@@ -1,18 +1,18 @@
 # How to get your DLCs
 
-Les DLC (Downloadable Content) ajoutent des fonctionnalités ou fichiers à un script principal. Seul le compte acheteur y a accès.
+DLCs (Downloadable Content) add features or files to a main script. Only the purchasing account has access.
 
-## Télécharger vos DLCs
-1. Rendez‑vous sur la page du produit concerné (même boutique que l’achat).
-2. Connectez‑vous avec le compte qui a acheté l’actif.
-3. Ouvrez la section « DLC » ou « Add‑ons ».
-4. Téléchargez les fichiers proposés.
+## Download your DLCs
+1. Go to the product page for the relevant asset (same store as the purchase).
+2. Sign in with the account that purchased the asset.
+3. Open the "DLC" or "Add-ons" section.
+4. Download the available files.
 
-## Bonnes pratiques
-- Vérifiez que vous êtes connecté avec le bon compte (celui de l’achat).
-- Si un DLC semble manquer, vérifiez vos commandes puis contactez le support avec la preuve d’achat.
+## Best practices
+- Make sure you're logged in with the correct account (the one that made the purchase).
+- If a DLC seems missing, check your orders then contact support with proof of purchase.
 
-## Médias
-- Captures: [Placeholder – section DLC sur la page produit]
+## Media
+- Screenshots: [Placeholder – DLC section on the product page]
 
 
