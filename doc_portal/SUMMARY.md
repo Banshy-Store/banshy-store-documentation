@@ -16,6 +16,7 @@
      - [How to update my server](development-guides/how-to-update-my-server.md)
      - [How to enable onesync](development-guides/how-to-enable-onesync.md)
      - [How to set RTC Server](development-guides/how-to-set-rtc-server.md)
+      - [Common installation issues](development-guides/common-installation-issues.md)
    - Configuration & Framework
      - [Configure your scripts](development-guides/configure-your-scripts.md)
      - [How to enable target system](development-guides/how-to-enable-target-system.md)
@@ -39,7 +40,14 @@
       - [Installation](../doc_bs-cardealer/installation.md)
      - [Quickstart](../doc_bs-cardealer/quickstart.md)
      - [Configuration](../doc_bs-cardealer/configuration.md)
+      - [Troubleshooting](../doc_bs-cardealer/troubleshooting.md)
+      - [FAQ](../doc_bs-cardealer/faq.md)
    - BS-BikeShop
      - [Overview](../doc_bs-bikeshop/README.md)
      - [Installation](../doc_bs-bikeshop/installation.md)
      - [Customisation](../doc_bs-bikeshop/customisation.md)
+      - [Troubleshooting](../doc_bs-bikeshop/troubleshooting.md)
+      - [FAQ](../doc_bs-bikeshop/faq.md)
+  
+  - Support
+    - [How to get support](support.md)
