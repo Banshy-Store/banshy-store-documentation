@@ -17,7 +17,6 @@
     - [How to update my server](development-guides/how-to-update-my-server.md)
     - [How to enable onesync](development-guides/how-to-enable-onesync.md)
   - Configure your scripts
-    - [Configure your scripts](development-guides/configure-your-scripts.md)
     - [How to set webhook system](development-guides/how-to-set-webhook-system.md)
     - [How to enable target system](development-guides/how-to-enable-target-system.md)
     - [How to manage translations](development-guides/how-to-manage-translations.md)
