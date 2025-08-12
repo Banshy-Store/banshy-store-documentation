@@ -53,7 +53,7 @@ Restart `ox_inventory` then `bs-bikeshop`.
    - Limit schema: import `install/items_bikes_esx_limit.sql`
 
 ![ESX_SQL](../assets/snippet_sql1.webp)
-![QS/OXInventory](../assets/snippet_sql2.webp)
+
 2. Restart the inventory/server.
 
 ### 4) Verify in-game
