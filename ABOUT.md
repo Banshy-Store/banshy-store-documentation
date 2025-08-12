@@ -1,6 +1,6 @@
 # Banshy Scripts Documentation
 
-![Banshy](../assets/banshy128.webp)
+![Banshy](../assets/banshy1200.webp)
 
 Welcome to the Banshy Scripts documentation! This guide contains everything you need to understand, configure, and maximize the use of my exclusive FiveM scripts. Before we get into the details, here’s a bit about me and my journey.
 
