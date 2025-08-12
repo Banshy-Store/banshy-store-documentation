@@ -1,6 +1,6 @@
 # Banshy Store - Documentation
 
-![Banshy Store](../assets/banshy1200.webp)
+[![Banshy Store](../assets/banshy1200.webp)](https://www.banshy-store.com)
 
 Welcome to the Banshy Store documentation. I’m Banshy a solo engineer and passionate newcomer to the GTA/FiveM scene, building ultra‑premium scripts to give the community rock‑solid, polished, and future‑proof experiences.
 
@@ -17,6 +17,8 @@ What to expect from these scripts:
 - bs-bikeshop: `doc_bs-bikeshop/`
 
 Use the summary to navigate: start with the generic docs, then explore our scripts.
+
+Visit the shop: https://www.banshy-store.com
 
 ## Media
 - Screenshots: [Placeholder – portal overview]

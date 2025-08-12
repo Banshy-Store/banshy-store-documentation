@@ -1,6 +1,7 @@
 # BS-BurgerShot
 
-![Banshy Store](../assets/banshy400.webp)
+[![Banshy Store](../assets/banshy400.webp)](https://www.banshy-store.com)
+Visit the shop: https://www.banshy-store.com
 
 Premium BurgerShot job. Fully configurable, tri-framework (ESX/QBCore/QBOX), multi-inventory (QS/OX/QB/ESX), ox_target, ox_lib, NUI checklist, i18n FR/EN, webhooks.
 

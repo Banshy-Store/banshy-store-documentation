@@ -1,6 +1,6 @@
 ## Installation
 
-![Banshy](../assets/banshy128.webp)
+[![Banshy](../assets/banshy128.webp)](https://www.banshy-store.com)
 
 This guide covers full installation of `bs-bikeshop` for QS Inventory, OX Inventory, or native ESX, as well as optionally enabling the built-in shop.
 

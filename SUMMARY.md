@@ -25,9 +25,6 @@
     - [How to execute commands](development-guides/how-to-execute-commands.md)
     - [How to set RTC Server](development-guides/how-to-set-rtc-server.md)
 
-- Support
-  - [How to get support](support.md)
-
 - Scripts
   - BS-BurgerShot
     - [Overview](bs-burgershot/README.md)
@@ -46,3 +43,7 @@
     - [Customisation](bs-bikeshop/customisation.md)
     - [Troubleshooting](bs-bikeshop/troubleshooting.md)
     - [FAQ](bs-bikeshop/faq.md)
+
+- Support
+  - [How to get support](support.md)
+

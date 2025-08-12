@@ -1,6 +1,6 @@
 # About Banshy
 
-![Banshy](assets/banshy1200.webp)
+[![Banshy](assets/banshy1200.webp)](https://www.banshy-store.com)
 
 I am a solo engineer building ultra premium, hand crafted scripts for FiveM. I joined the GTA scene recently with a simple goal: deliver production ready resources that server owners can trust.
 
@@ -26,3 +26,5 @@ I am a solo engineer building ultra premium, hand crafted scripts for FiveM. I j
 - Unauthorized use, resale, or distribution is prohibited
 
 Thank you for trusting Banshy Scripts. If you have feedback or feature requests, reach out via the support channel noted above.
+
+Visit the shop: https://www.banshy-store.com

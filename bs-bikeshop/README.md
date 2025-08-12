@@ -1,5 +1,8 @@
 # BS-BikeShop
 
+[![Banshy Store](../assets/banshy400.webp)](https://www.banshy-store.com)
+Visit the shop: https://www.banshy-store.com
+
 ![Banshy Store](../assets/banshy400.webp)
 
 Turn bikes into real items: buy, spawn with one click, pack via ox_target. Compatible with QS Inventory, OX Inventory, and native ESX. Ideal to monetize your server with a clean, performant, and abuse‑resistant experience.
