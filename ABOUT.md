@@ -1,23 +1,28 @@
-# Banshy Scripts Documentation
+# About Banshy
 
-![Banshy](../assets/banshy1200.webp)
+![Banshy](assets/banshy1200.webp)
 
-Welcome to the Banshy Scripts documentation! This guide contains everything you need to understand, configure, and maximize the use of my exclusive FiveM scripts. Before we get into the details, here’s a bit about me and my journey.
+I am a solo engineer building ultra premium, hand crafted scripts for FiveM. I joined the GTA scene recently with a simple goal: deliver production ready resources that server owners can trust.
 
-About Me
-Banshy Scripts is a one-person studio dedicated to building ultra-premium, hand-crafted assets for FiveM. While new to the GTA scene, I’ve quickly earned a reputation for clean code, strong performance, and trusted releases for roleplay servers.
+## What I stand for
+- Quality first - clean, readable code with strong performance and security
+- Inter framework support - ESX, QBCore, and QBOX bridges maintained
+- Real playtesting - every release is tested with a curated group of players
+- Clear operations - straightforward installation, sane defaults, and robust validations
 
-Founded in 2024
-Independently owned and operated, with a focus on reliability, transparency, and attention to detail.
+## How I build
+- Design and prototyping in small iterations
+- Implementation with explicit configuration and zero hard dependencies where possible
+- Internal QA with logs, assertions, and anti abuse controls
+- External playtests to validate gameplay, UX, and edge cases
 
-Dedicated to Excellence
-Every release is built for multi-framework support (ESX, QBCore, QBOX), optimized for performance and security, and playtested with real players before launch.
+## Support and updates
+- I provide documentation focused on installation and real world operations
+- Fast iteration on bug fixes and minor improvements
+- See [Support](support.md) for how to request help effectively
 
-Visit My Website
-Explore high-quality scripts designed to enhance your FiveM server experience.
+## Legal
+- All assets are protected by copyright and DMCA
+- Unauthorized use, resale, or distribution is prohibited
 
-DMCA Protection
-All Banshy Scripts assets are protected under the Digital Millennium Copyright Act (DMCA), ensuring legal verification and safeguarding against misuse.
-
-Illegal Use Warning
-Any unauthorized use, modification, or distribution of my work may result in legal action under DMCA regulations.
+Thank you for trusting Banshy Scripts. If you have feedback or feature requests, reach out via the support channel noted above.
