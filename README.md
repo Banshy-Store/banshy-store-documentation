@@ -1,11 +1,22 @@
 # Banshy Store - Documentation
 
-![Banshy Store](assets/banshy1200.webp)
+![Banshy Store](../assets/banshy1200.webp)
 
-Start here: `doc_portal/README.md`.
+Welcome to the Banshy Store documentation. I’m Banshy a solo engineer and passionate newcomer to the GTA/FiveM scene, building ultra‑premium scripts to give the community rock‑solid, polished, and future‑proof experiences.
 
-This repository contains:
-- Global docs in `doc_portal/`
-- Script docs in `doc_bs-*` folders
+What to expect from these scripts:
+- Inter‑framework by design: ESX, QBCore, and QBOX bridges included
+- Hand‑crafted code: clean, readable, with performance and security in mind
+- Battle‑tested with a curated group of playtesters before each release
+- Focused on operability: clear installation, sane defaults, robust validations
+- Long‑term: maintainable configs, i18n, and integration points (inventory, billing, webhooks)
 
-For GitBook, set the summary file path to `SUMMARY.md` (root) or `doc_portal/SUMMARY.md` in your integration settings.
+## Docs by script
+- BS-BurgerShot: `doc_bs-burgershot/`
+- bs-cardealer: `doc_bs-cardealer/`
+- bs-bikeshop: `doc_bs-bikeshop/`
+
+Use the summary to navigate: start with the generic docs, then explore our scripts.
+
+## Media
+- Screenshots: [Placeholder – portal overview]

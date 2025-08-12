@@ -1,13 +1,23 @@
-# About Banshy
+# Banshy Scripts Documentation
 
 ![Banshy](../assets/banshy128.webp)
 
-I’m Banshy, a solo engineer building ultra‑premium, hand‑crafted FiveM scripts. New to the GTA scene but obsessed with quality, I focus on:
+Welcome to the Banshy Scripts documentation! This guide contains everything you need to understand, configure, and maximize the use of my exclusive FiveM scripts. Before we get into the details, here’s a bit about me and my journey.
 
-- Inter‑framework support (ESX, QBCore, QBOX) with robust bridges
-- Performance, security, and clean code
-- Real playtesting with a curated group of players before release
-- Clear installation and long‑term maintainability (i18n, webhooks, integrations)
+About Me
+Banshy Scripts is a one-person studio dedicated to building ultra-premium, hand-crafted assets for FiveM. While new to the GTA scene, I’ve quickly earned a reputation for clean code, strong performance, and trusted releases for roleplay servers.
 
-My goal is simple: deliver scripts that server owners can trust in production.
+Founded in 2024
+Independently owned and operated, with a focus on reliability, transparency, and attention to detail.
 
+Dedicated to Excellence
+Every release is built for multi-framework support (ESX, QBCore, QBOX), optimized for performance and security, and playtested with real players before launch.
+
+Visit My Website
+Explore high-quality scripts designed to enhance your FiveM server experience.
+
+DMCA Protection
+All Banshy Scripts assets are protected under the Digital Millennium Copyright Act (DMCA), ensuring legal verification and safeguarding against misuse.
+
+Illegal Use Warning
+Any unauthorized use, modification, or distribution of my work may result in legal action under DMCA regulations.

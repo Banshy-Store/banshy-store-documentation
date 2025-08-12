@@ -26,24 +26,24 @@
   - [Script Video Guides](development-guides/script-video-guides.md)
   - [Common installation issues](development-guides/common-installation-issues.md)
 
-- [Scripts](PRODUCTS.md)
-  - BS-BurgerShot
-    - [Overview](../doc_bs-burgershot/README.md)
-    - [Installation](../doc_bs-burgershot/getting-started/installation.md)
-    - [Quickstart](../doc_bs-burgershot/getting-started/quickstart.md)
-  - BS-CarDealer
-    - [Overview](../doc_bs-cardealer/README.md)
-    - [Installation](../doc_bs-cardealer/installation.md)
-    - [Quickstart](../doc_bs-cardealer/quickstart.md)
-    - [Configuration](../doc_bs-cardealer/configuration.md)
-    - [Troubleshooting](../doc_bs-cardealer/troubleshooting.md)
-    - [FAQ](../doc_bs-cardealer/faq.md)
-  - BS-BikeShop
-    - [Overview](../doc_bs-bikeshop/README.md)
-    - [Installation](../doc_bs-bikeshop/installation.md)
-    - [Customisation](../doc_bs-bikeshop/customisation.md)
-    - [Troubleshooting](../doc_bs-bikeshop/troubleshooting.md)
-    - [FAQ](../doc_bs-bikeshop/faq.md)
-
 - Support
   - [How to get support](support.md)
+
+- Scripts
+  - BS-BurgerShot
+    - [Overview](bs-burgershot/README.md)
+    - [Installation](bs-burgershot/getting-started/installation.md)
+    - [Quickstart](bs-burgershot/getting-started/quickstart.md)
+  - BS-CarDealer
+    - [Overview](bs-cardealer/README.md)
+    - [Installation](bs-cardealer/installation.md)
+    - [Quickstart](bs-cardealer/quickstart.md)
+    - [Configuration](bs-cardealer/configuration.md)
+    - [Troubleshooting](bs-cardealer/troubleshooting.md)
+    - [FAQ](bs-cardealer/faq.md)
+  - BS-BikeShop
+    - [Overview](bs-bikeshop/README.md)
+    - [Installation](bs-bikeshop/installation.md)
+    - [Customisation](bs-bikeshop/customisation.md)
+    - [Troubleshooting](bs-bikeshop/troubleshooting.md)
+    - [FAQ](bs-bikeshop/faq.md)
