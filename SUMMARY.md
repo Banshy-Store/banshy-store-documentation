@@ -1,7 +1,7 @@
 # Table of contents
 
-- [Welcome](README.md)
-  - [About](ABOUT.md)
+- [Banshy Store Documentation](README.md)
+  - [Banshy](ABOUT.md)
 
 - Getting Started
   - [What is CFX Auth?](getting-started/cfx-auth.md)
