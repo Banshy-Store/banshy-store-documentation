@@ -1,4 +1,6 @@
-# bs-cardealer
+# BS-CarDealer
+
+![Banshy Store](../assets/banshy400.webp)
 
 A modern, secure, tri-framework car dealership resource for FiveM.
 

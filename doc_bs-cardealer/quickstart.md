@@ -1,5 +1,7 @@
 # Quick Start
 
+![Banshy](../assets/banshy128.webp)
+
 1) Install dependencies
 - Ensure `ox_lib`, `oxmysql`, `ox_target` are started before `bs-cardealer`
 - Optional: `esx_billing` or `bs-billing` for real invoices (not required)

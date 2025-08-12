@@ -3,7 +3,7 @@
 DLCs (Downloadable Content) add features or files to a main script. Only the purchasing account has access.
 
 ## Download your DLCs
-1. Go to the product page for the relevant asset (same store as the purchase).
+1. Go to the script page for the relevant asset (same store as the purchase).
 2. Sign in with the account that purchased the asset.
 3. Open the "DLC" or "Add-ons" section.
 4. Download the available files.
@@ -13,6 +13,6 @@ DLCs (Downloadable Content) add features or files to a main script. Only the pur
 - If a DLC seems missing, check your orders then contact support with proof of purchase.
 
 ## Media
-- Screenshots: [Placeholder – DLC section on the product page]
+- Screenshots: [Placeholder – DLC section on the script page]
 
 

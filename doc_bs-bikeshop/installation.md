@@ -1,5 +1,7 @@
 ## Installation
 
+![Banshy](../assets/banshy128.webp)
+
 This guide covers full installation of `bs-bikeshop` for QS Inventory, OX Inventory, or native ESX, as well as optionally enabling the built-in shop.
 
 ### 1) Prerequisites
@@ -62,7 +64,7 @@ In `shared/config.lua`:
 ```lua
 Config.EnableBuiltInShop = true
 
--- Products (prices and item names)
+-- Items for sale (prices and item names)
 Config.Products = {
   { name = 'bmx',      label = 'BMX',        price = 1000 },
   { name = 'cruiser',  label = 'Cruiser',    price = 1200 },

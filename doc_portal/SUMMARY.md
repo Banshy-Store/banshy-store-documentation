@@ -1,6 +1,7 @@
 # Summary
 
 - [Welcome](README.md)
+  - [About](ABOUT.md)
 
  - Getting Started
    - [What is CFX Auth?](getting-started/cfx-auth.md)
@@ -30,7 +31,7 @@
    - Media & Assistance
      - [Script Video Guides](development-guides/script-video-guides.md)
 
- - [Products](PRODUCTS.md)
+  - [Scripts](PRODUCTS.md)
    - BS-BurgerShot
      - [Overview](../doc_bs-burgershot/README.md)
      - [Installation](../doc_bs-burgershot/getting-started/installation.md)

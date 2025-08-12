@@ -1,5 +1,7 @@
 # BS-BurgerShot
 
+![Banshy Store](../assets/banshy400.webp)
+
 Premium BurgerShot job. Fully configurable, tri-framework (ESX/QBCore/QBOX), multi-inventory (QS/OX/QB/ESX), ox_target, ox_lib, NUI checklist, i18n FR/EN, webhooks.
 
 - Single config: `txData/ESXLegacy_404CCF.base/resources/[jobs]/bs-burgershot/shared/config.lua`

@@ -3,10 +3,10 @@
 To receive fast, high-quality support, include the following:
 
 ## Checklist to include
-- Product name and version
+- Script name and version
 - Framework (ESX/QB/QBX) and inventory backend
 - OS, artifacts version, gamebuild
-- `server.cfg` ensure order for dependencies and the product
+- `server.cfg` ensure order for dependencies and the script
 - Relevant parts of `shared/config.lua` (remove secrets)
 - Server console log and client F8 log (errors/warnings)
 - Exact steps to reproduce and what you already tried

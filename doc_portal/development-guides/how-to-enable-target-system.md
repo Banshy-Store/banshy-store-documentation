@@ -3,8 +3,8 @@
 Banshy Store scripts support popular target systems for consistent interactions with entities and objects. This guide explains supported systems, how to enable them, and how to customize or extend the setup.
 
 ## Supported target systems
-- ox_target — stable and widely adopted "third-eye" targeting.
-- qb-target — popular interaction system used in QBCore servers.
+- ox_target - stable and widely adopted "third-eye" targeting.
+- qb-target - popular interaction system used in QBCore servers.
 
 Please keep your target resource up to date to avoid compatibility issues.
 

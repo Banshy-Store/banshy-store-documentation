@@ -1,5 +1,7 @@
 # Configuration
 
+![Banshy](../assets/banshy128.webp)
+
 All options live in `shared/config.lua` and include inline tips. This page explains every setting with examples.
 
 ## Locale

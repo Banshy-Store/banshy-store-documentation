@@ -1,5 +1,7 @@
 # Quick Start
 
+![Banshy](../../assets/banshy128.webp)
+
 - Start your server and join with an admin account.
 - Set your job to `BSConfig.JobName` (default `burgershot`).
 - Use ox_target interactions at `BSConfig.Points`.

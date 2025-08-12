@@ -6,7 +6,7 @@ To ensure your FiveM server runs smoothly and avoids critical issues, it’s ess
 Your server framework is the most important component. We generally recommend ESX, but the process below applies to both QBCore and ESX.
 
 ## Artifacts
-Artifacts are the core server binaries — effectively the brain of your server. Staying current ensures compatibility and stability.
+Artifacts are the core server binaries - effectively the brain of your server. Staying current ensures compatibility and stability.
 
 ## Gamebuild
 The gamebuild is the GTA V build/DLC version your server enforces. Using a recent build avoids feature and compatibility problems.
@@ -25,7 +25,7 @@ Updating your framework is a crucial step before proceeding with artifacts and g
 ### Do not rename the framework folder
 - Keep the folder name exactly as provided (for example: `qb-core` or `es_extended`).
 - Renaming it can cause severe compatibility problems with scripts, which often reference specific folder names.
-- Renaming your framework does not make it “custom” — it makes it prone to breakage.
+- Renaming your framework does not make it “custom” - it makes it prone to breakage.
 
 ## Update Artifacts
 Artifacts are the core files needed to run your server. Keeping them updated is essential for compatibility with the latest FiveM features.

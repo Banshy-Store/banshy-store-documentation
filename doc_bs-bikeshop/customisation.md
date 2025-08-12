@@ -1,5 +1,7 @@
 ## Customisation
 
+![Banshy](../assets/banshy128.webp)
+
 All settings are in `shared/config.lua`. Here are the key options to adapt the resource to your economy and gameplay preferences.
 
 ### Language
@@ -25,7 +27,7 @@ Config.EnableBuiltInShop = false
 -- ESX: 'money' or 'bank' | QB/QBX: 'cash' or 'bank'
 Config.PaymentAccount = 'money'
 
--- Products and prices
+-- Items and prices
 Config.Products = {
   { name = 'bmx',      label = 'BMX',        price = 1000 },
   { name = 'cruiser',  label = 'Cruiser',    price = 1200 },

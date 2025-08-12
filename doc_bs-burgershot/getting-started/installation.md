@@ -1,5 +1,7 @@
 # Installation
 
+![Banshy](../../assets/banshy128.webp)
+
 Follow this step-by-step guide to install and verify `bs-burgershot`.
 
 ## 1) Prerequisites
