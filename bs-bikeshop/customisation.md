@@ -4,6 +4,7 @@
 
 All settings are in `shared/config.lua`. Here are the key options to adapt the resource to your economy and gameplay preferences.
 
+![QS/OXInventory](../assets/snippet_config.webp)
 ### Language
 ```lua
 -- 'en' or 'fr' (other languages are prepared in locales)

@@ -40,8 +40,10 @@ QS notes:
 
 #### OX Inventory
 Option A: merge into `ox_inventory/data/items.lua` the entries from the snippet `install/ox_inventory_items.lua`.
+![QS/OXInventory](../assets/snippet_item_qs.webp)
 
 Option B: if you manage your items via a separate file, adapt the structure (label, weight, stack, consume) to your existing schema.
+
 
 Restart `ox_inventory` then `bs-bikeshop`.
 
@@ -49,6 +51,9 @@ Restart `ox_inventory` then `bs-bikeshop`.
 1. Choose your schema: weight or limit.
    - Weight schema: import `install/items_bikes_esx_weight.sql`
    - Limit schema: import `install/items_bikes_esx_limit.sql`
+
+![ESX_SQL](../assets/snippet_sql1.webp)
+![QS/OXInventory](../assets/snippet_sql2.webp)
 2. Restart the inventory/server.
 
 ### 4) Verify in-game
