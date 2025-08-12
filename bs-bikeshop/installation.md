@@ -52,7 +52,7 @@ Restart `ox_inventory` then `bs-bikeshop`.
    - Weight schema: import `install/items_bikes_esx_weight.sql`
    - Limit schema: import `install/items_bikes_esx_limit.sql`
 
-![ESX_SQL](../assets/snippet_sql1.webp)
+![ESX_SQL](../assets/snippet_sql_1.webp)
 
 2. Restart the inventory/server.
 
