@@ -1,4 +1,4 @@
-root: ./doc_portal
+root: ./
 structure:
-  readme: README.md
-  summary: SUMMARY.md
+  readme: doc_portal/README.md
+  summary: doc_portal/SUMMARY.md
