@@ -37,6 +37,13 @@
     - [Configuration](bs-cardealer/configuration.md)
     - [Troubleshooting](bs-cardealer/troubleshooting.md)
     - [FAQ](bs-cardealer/faq.md)
+  - BS-DefenseCayo
+    - [Overview](bs-defensecayo/README.md)
+    - [Installation](bs-defensecayo/installation.md)
+    - [Quickstart](bs-defensecayo/quickstart.md)
+    - [Configuration](bs-defensecayo/configuration.md)
+    - [Troubleshooting](bs-defensecayo/troubleshooting.md)
+    - [FAQ](bs-defensecayo/faq.md)
   - BS-BikeShop
     - [Overview](bs-bikeshop/README.md)
     - [Installation](bs-bikeshop/installation.md)
